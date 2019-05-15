@@ -52,5 +52,6 @@ int macro8(){
 	parabola.DrawClone("Same");gaussian.DrawClone("Same");
 	TLatex latex(2,220,"#splitline{Siganl peak over}{background}");
 	latex.DrawClone("Same");
+	gPad->Print("fit.png");
 	return 0;
 }
